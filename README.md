@@ -41,3 +41,4 @@ See `/docs` for detailed guides and example datasets.
 
 Contact: [Your Name/Group]
 License: MIT
+# te-detector-analyzer
