@@ -199,6 +199,10 @@ def run_go_enrichment(gene_list):
     # Implementation would run actual GO analysis
     return [{'term': 'GO:0008150', 'pvalue': 0.001}]
 
+@app.route("/")
+def index():
+    return "Transposable Element Detector & Analyzer API is running!"
+
 if __name__ == "__main__":
     import os
     port = int(os.environ.get("PORT", 5000))
