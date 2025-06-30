@@ -1,5 +1,0 @@
-# Create .python-version file to pin Python to 3.11
-with open('.python-version', 'w') as f:
-    f.write('3.11\n')
-
-print("Created .python-version file with Python 3.11")
