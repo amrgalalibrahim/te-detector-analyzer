@@ -1,5 +1,5 @@
 [build]
-  command = "mise install && mise use -g python 3.10.13 && pip install -r requirements.txt"
+  command = "mise install && mise use -g python 3.10.13 && python -m pip install -r requirements.txt"
   publish = "dist"
 
 [build.environment]
