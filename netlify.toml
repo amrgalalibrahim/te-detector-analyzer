@@ -1,6 +1,6 @@
 [build]
-  command = "your build command here"
-  publish = "dist"  # or your output directory
+  command = "pip install -r requirements.txt && python your_script.py"
+  publish = "dist"
 
 [build.environment]
-  PYTHON_VERSION = "3.10"
+  PYTHON_VERSION = "3.10.13"
