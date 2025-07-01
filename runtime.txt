@@ -1,4 +1,11 @@
+# Create runtime.txt with a supported Python version
 echo "python-3.10.13" > runtime.txt
+
+# Stage the new file
 git add runtime.txt
-git commit -m "Add runtime.txt to pin Python version for Netlify"
+
+# Commit the change with a message
+git commit -m "Fix: pin supported Python version 3.10.13 for Netlify"
+
+# Push the change to the main branch
 git push origin main
