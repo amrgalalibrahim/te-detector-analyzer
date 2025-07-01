@@ -1,7 +1,6 @@
 [build]
-  command = "pip install -r requirements.txt && python app.py"
+  command = "pip install -r requirements.txt"
   publish = "dist"
 
 [build.environment]
-  PYTHON_VERSION = "3.10.13"
-  
+  PYTHON_VERSION = "3.10"
