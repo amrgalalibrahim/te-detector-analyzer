@@ -1,0 +1,6 @@
+[build]
+  command = "your build command here"
+  publish = "dist"  # or your output directory
+
+[build.environment]
+  PYTHON_VERSION = "3.10"
