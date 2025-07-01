@@ -1,12 +1,12 @@
+# Core backend framework
 Flask==2.3.2
-Flask-CORS==4.0.0
-pandas==2.0.3
+
+# Data processing
 numpy==1.24.3
-scipy==1.10.1
-matplotlib==3.7.1
-seaborn==0.12.2
-plotly==5.15.0
-biopython==1.81
-pysam==0.21.0
-requests==2.31.0
-werkzeug==2.3.6
+
+# Add more packages as needed, ensuring they are Py3.10-safe
+# pandas==1.5.3
+# scikit-learn==1.2.2
+# matplotlib==3.6.3
+# seaborn==0.12.2
+# requests==2.31.0
